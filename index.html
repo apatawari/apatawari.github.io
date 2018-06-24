@@ -920,37 +920,28 @@
 
    	<div class="row contact-form">
 
+   		 <!-- form -->
+
+            <form action="http://formspree.io/apatawari.hit@gmail.com" method="post" >
+
+            	<input type="email" name="_replyto">
+
+            	<textarea   name="body"> </textarea>
+
+            	<input type="submit" value="Send">
+            </form>
+
    		<div class="col-twelve">
 
             <form name="contactForm" action="http://formspree.io/apatawari.hit@gmail.com" id="contactForm" method="post">
-      			<fieldset>
 
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                   <div class="form-field">
-                     <input type="submit" value="Submit">
-                  </div>
-
-      			</fieldset>
+                 
+ 				<input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	            <input type="submit" value="Send">
+                
       		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
 
          </div> <!-- /col-twelve -->
    		
